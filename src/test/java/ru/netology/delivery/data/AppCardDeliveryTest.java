@@ -21,8 +21,8 @@ public class AppCardDeliveryTest {
     public void validData() {
         UserInfo userInfo = DataGenerate.Registration.generateInfo();
 
-        var dateOne = DataGenerate.generateDate(3);
-        var dateTwo = DataGenerate.generateDate(6);
+        String dateOne = DataGenerate.generateDate(3);
+        String dateTwo = DataGenerate.generateDate(6);
 
         $x("// input [@placeholder = \"Город\"]").setValue(userInfo.getCity());
         $x("//input [@placeholder=\"Дата встречи\"]").doubleClick();
