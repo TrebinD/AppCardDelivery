@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/vlt2n4vliiw0piiu?svg=true)](https://ci.appveyor.com/project/TrebinD/appcard)
+[![Build status](https://ci.appveyor.com/api/projects/status/0q4vl51sc4bs0bv5?svg=true)](https://ci.appveyor.com/project/TrebinD/appcarddelivery)
 
 
 
