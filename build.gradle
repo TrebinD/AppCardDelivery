@@ -17,12 +17,9 @@ repositories {
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
-    runtimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     implementation 'com.codeborne:selenide:6.6.3'
-    implementation 'org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-2'
-
     implementation 'com.github.javafaker:javafaker:1.0.2'
-    implementation 'io.freefair.gradle:lombok-plugin:6.4.3.1'
 }
 
 test {
